@@ -637,7 +637,10 @@ No modules.
 | <a name="output_elasticache_subnets_ipv6_cidr_blocks"></a> [elasticache\_subnets\_ipv6\_cidr\_blocks](#output\_elasticache\_subnets\_ipv6\_cidr\_blocks) | List of IPv6 cidr\_blocks of elasticache subnets in an IPv6 enabled VPC |
 | <a name="output_igw_arn"></a> [igw\_arn](#output\_igw\_arn) | The ARN of the Internet Gateway |
 | <a name="output_igw_id"></a> [igw\_id](#output\_igw\_id) | The ID of the Internet Gateway |
+| <a name="output_instance_connect_endpoint_arn"></a> [instance\_connect\_endpoint\_arn](#output\_instance\_connect\_endpoint\_arn) | The ARN of the EC2 Instance Connect Endpoint |
+| <a name="output_instance_connect_endpoint_dns_name"></a> [instance\_connect\_endpoint\_dns\_name](#output\_instance\_connect\_endpoint\_dns\_name) | The DNS name of the EC2 Instance Connect Endpoint |
 | <a name="output_instance_connect_endpoint_id"></a> [instance\_connect\_endpoint\_id](#output\_instance\_connect\_endpoint\_id) | The ID of the EC2 Instance Connect Endpoint |
+| <a name="output_instance_connect_endpoint_network_interface_ids"></a> [instance\_connect\_endpoint\_network\_interface\_ids](#output\_instance\_connect\_endpoint\_network\_interface\_ids) | The network interface IDs associated with the EC2 Instance Connect Endpoint |
 | <a name="output_intra_network_acl_arn"></a> [intra\_network\_acl\_arn](#output\_intra\_network\_acl\_arn) | ARN of the intra network ACL |
 | <a name="output_intra_network_acl_id"></a> [intra\_network\_acl\_id](#output\_intra\_network\_acl\_id) | ID of the intra network ACL |
 | <a name="output_intra_route_table_association_ids"></a> [intra\_route\_table\_association\_ids](#output\_intra\_route\_table\_association\_ids) | List of IDs of the intra route table association |

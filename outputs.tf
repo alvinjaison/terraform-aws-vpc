@@ -675,3 +675,18 @@ output "instance_connect_endpoint_id" {
   description = "The ID of the EC2 Instance Connect Endpoint"
   value       = try(aws_ec2_instance_connect_endpoint.this[0].id, null)
 }
+
+output "instance_connect_endpoint_arn" {
+  description = "The ARN of the EC2 Instance Connect Endpoint"
+  value       = aws_ec2_instance_connect_endpoint.this[0].arn
+}
+
+output "instance_connect_endpoint_network_interface_ids" {
+  description = "The network interface IDs associated with the EC2 Instance Connect Endpoint"
+  value       = aws_ec2_instance_connect_endpoint.this[0].network_interface_ids
+}
+
+output "instance_connect_endpoint_dns_name" {
+  description = "The DNS name of the EC2 Instance Connect Endpoint"
+  value       = aws_ec2_instance_connect_endpoint.this[0].dns_name
+}
